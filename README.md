@@ -2,9 +2,11 @@
 
 Public Traditional Chinese educational briefing text for a reader-configured morning audio shortcut.
 
-## Current status
+## Format
 
-`latest.txt` is a short playback test, not a dated daily edition. Recurring updates are not enabled. Fetching, room selection, locked-phone playback and timed playback must be tested before relying on a morning schedule.
+`latest.txt` contains a dated short edition: three recall keywords, one recall question, and a brief public-literature news flash. Older papers are explicitly labeled as retrospectives. `latest_sources.md` records public sources and caveats.
+
+The target is approximately 140–170 Chinese characters, not a guaranteed audio duration. Voice and speed affect timing. Check that the complete ending is audible; Intercom may truncate long input. This is a short briefing, not a long podcast.
 
 ## Publication scope
 
@@ -12,6 +14,11 @@ Only general educational principles, original summaries of public literature, an
 
 ## Reading the feed
 
-The file remains at `latest.txt` on the `main` branch. A client may retrieve the GitHub Contents API endpoint with `Accept: application/vnd.github.raw+json`, or the public raw-file URL. No access token is needed for this public file.
+The file stays at `latest.txt` on `main`:
+https://raw.githubusercontent.com/anankaku/morning_study/main/latest.txt
 
-Future daily editions should identify their intended date; the playback shortcut should reject missing, stale or invalid content rather than replay an old edition. Public content and Git history may be read and copied by anyone.
+A client may alternatively retrieve the GitHub Contents API endpoint with `Accept: application/vnd.github.raw+json`. No access token is needed for this public file.
+
+Example shortcut: URL → Get Contents of URL → Get Text from Input → Make Spoken Audio from Text (explicit Chinese voice) → Intercom (generated audio, not text).
+
+Check the spoken date before treating an edition as current. A robust client should reject missing, stale or invalid content rather than replay an old edition; this repository does not itself enforce client-side checks. Public content and Git history may be read and copied by anyone.
