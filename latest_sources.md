@@ -1,9 +1,17 @@
-# 2026-10-21 晨間快訊來源
+# 2026-10-22 晨間快訊來源
 
-Garlatti et al., “The critical role of ultra-low-energy vibrations in the relaxation dynamics of molecular qubits.” Nature Communications 14, 1653 (2023), published 2023-03-24.
+本期為2025年研究回顧，並非今日新發表。
 
-[期刊全文](https://www.nature.com/articles/s41467-023-36852-y) · [DOI](https://doi.org/10.1038/s41467-023-36852-y)
+Yuksekgonul, M., Bianchi, F., Boen, J., et al. “Optimizing generative AI by backpropagating language model feedback.” Nature 639, 609–616 (2025). 線上發表：2025-03-19。
 
-這是舊文回顧，不是當日新發現。研究結合非彈性 X 光散射與密度泛函理論計算，支持超低能量振動對該系統自旋鬆弛的重要性；雙聲子過程造成純退相位的部分主要來自模擬。不能將單一系統結果直接推廣到所有分子；調整振動是設計方向，不是通用改善保證。
+[正式論文](https://www.nature.com/articles/s41586-025-08661-4) · [DOI](https://doi.org/10.1038/s41586-025-08661-4) · [作者官方 TextGrad 程式庫](https://github.com/zou-group/textgrad)
 
-播報以約 45–50 秒為目標，實際長度依所選語音、速度與停頓而異，尚待完整試播確認。日期採 America/New_York。
+## 查核與界線
+
+- 方法利用語言模型產生自然語言回饋，沿計算圖反向傳遞，指導提示或答案等變數的更新。
+- 正式論文摘要及延伸資料支持科學問答和程式任務中的改善；本稿不引用特定百分比，避免混用預印本與正式版本。
+- 文字梯度是比喻，不是數值導數，也不等於直接更新底層神經網路權重。不保證所有任務或每次更新均改善。
+- 回想題：對可微損失，在非零梯度處，負梯度是局部最陡下降方向；仍需選擇合適步長。
+- 查核使用期刊原站索引的書目、摘要與延伸資料，並以作者官方程式庫交叉核對；期刊直接開啟遇到登入重新導向。
+
+日期採 America/New_York。口播約45–50秒僅為估計，實際依語音、速度與停頓而異。
