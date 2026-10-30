@@ -1,22 +1,23 @@
-# 2026-10-29 晨間快訊來源
+# 2026-10-30 晨間快訊來源
 
-本期回顧 2026 年研究，並非今日新發表。
+本期回顧 2026 年預印本，並非今日新發表，也不視為已通過同儕審查。
 
-Jasper Butcher et al. “Atomic functional site scaffolding in biopolymers with RFdiffusion3.” Science (2026), eaeh2982. DOI: 10.1126/science.aeh2982。
+Mhd Hussein Murtada, Z. Faidon Brotzakis, Michele Vendruscolo. “MD-LLM-2: A Transferable Language Model of Molecular Dynamics with Physical Conditioning and Explicit Path Probabilities.” arXiv:2610.10879v1 (2026-10-07).
 
-[正式論文 DOI](https://doi.org/10.1126/science.aeh2982)
-[作者所屬機構公開論文摘要與書目](https://orbit.dtu.dk/en/publications/atomic-functional-site-scaffolding-in-biopolymers-with-rfdiffusio/)
+[作者預印本](https://arxiv.org/abs/2610.10879v1)
+[公開全文](https://arxiv.org/html/2610.10879v1)
+[DOI](https://doi.org/10.48550/arXiv.2610.10879)
 
 ## 查核與界線
 
-- 作者摘要說明 RFdiffusion3 使用原子層級的擴散生成方法，以滿足複雜的原子限制，並報告實驗得到有催化活性的設計酵素。口播只摘要此已核驗的範圍。
-- 研究中的成功設計不代表所有生成結構都具有功能，也不證明模型適用於所有反應。口播不聲稱普遍成功率、性能倍數或臨床效果。
-- 出版社 DOI 頁面直接讀取失敗；本期依作者所屬機構公開的原始論文摘要與書目核驗，未據此推測全文未讀到的結果。
+- 摘要及第 1 節：模型根據序列、溫度與構形歷史生成離散結構符號序列。正規化的逐步條件機率讓模型內的符號路徑機率可直接計算；這不等於真實物理路徑機率已正確。
+- 第 2.3 節及第 3 節：所報告蛋白質測試中，加入歷史構形減少整體骨架漂移。作者同時討論動力學記憶與抑制累積生成誤差兩種解釋，尚未將它們完全分離。
+- 第 3 節限制：蛋白質模型只生成骨架座標，生成軌跡的時間尺度尚未對分子動力學校準。動力學測試限於小分子兩個能谷間的短時間首次通過機率，不能推廣為蛋白質速率已驗證。
 
 ## 複習提示
 
-關鍵詞：活性位、原子排列、催化。
-回想題：蛋白質折得對，就一定能催化反應嗎？
-答案：不一定。除了整體折疊，還要具備適當的活性位幾何、化學性質與反應條件；功能須另外測試。
+關鍵詞：條件機率、歷史資訊、時間尺度。
+回想題：能算出路徑機率，就代表時間尺度正確嗎？
+答案：不一定。機率可計算是模型的性質；物理時間尺度與轉移速率仍須獨立對照驗證。
 
 日期採 America/New_York。口播約 45–50 秒僅為估計，實際依語音、速度與停頓而異。
