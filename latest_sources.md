@@ -1,23 +1,23 @@
-# 2026-11-01 晨間快訊來源
+# 2026-11-02 晨間快訊來源
 
-回顧 2026 年預印本，非今日新發表；不視為已通過同儕審查。
+回顧 2026 年已發表研究，非今日新發表。
 
-Vladimir R. Kostic, Karim Lounici, Hélène Halconruy, Timothée Devergne, Michele Parrinello, Massimiliano Pontil. “Langevin-Informed Transfer Learning: Replacing Target Samples by Black-Box Feedback.” arXiv:2610.01522v1 (2026-10-01).
+Alan Ianeselli, Jewon Im, Eddie Cavallin, Mark B. Gerstein. “DreamFold: A World Model to efficiently generate protein folding pathways in the latent space.” Protein Science 35(11), e70794 (2026). 首次線上發表：2026-09-30。
 
-[作者摘要](https://arxiv.org/abs/2610.01522v1)
-[公開全文](https://arxiv.org/html/2610.01522v1)
-[DOI](https://doi.org/10.48550/arXiv.2610.01522)
+[DOI](https://doi.org/10.1002/pro.70794)
+[出版社公開全文](https://onlinelibrary.wiley.com/doi/full/10.1002/pro.70794)
 
 ## 查核與界線
 
-- 第 2–3 節：LITL 使用偏差樣本、重要性權重及已知 Langevin 動力學結構，學習目標生成元的慢模態。不是只靠任意靜態照片就能確定真實時間。
-- 第 5 節表 1、附錄 F.1：雙井測試的特徵值、特徵函數與重建動態接近數值參考；這是受控模型測試，不是所有分子的速率驗證。
-- 第 6 節限制：目前聚焦可逆 Langevin 動力學，需要有資訊的黑箱評估及可辨識的低維慢結構。不可泛化成任意偏差資料都能恢復真實速率。
+- 摘要及方法：以變分自編碼器壓縮構形與二面角動作，再學習潛在狀態轉移，訓練控制器朝目標摺疊。
+- 研究將生成路徑與分子動力學及可用實驗資料比較，報告中間態與隱藏結合位置；這是所測系統的結果，不代表普遍準確或已驗證藥效。
+- 討論明確指出控制器偏向單向摺疊，破壞詳細平衡；生成軌跡屬非平衡，不能直接抽取平衡熱力學量。文中另以短 MD 鬆弛和馬可夫狀態模型處理無偏動態，不等於原始生成路徑本身已具真實物理時間。
+- 未將作者的最高加速倍數或特定規模下的複雜度表述成普遍保證。
 
 ## 複習提示
 
-關鍵詞：偏差取樣、重新加權、慢模態。
-回想題：加速跨越能障後，模擬時間還能直接當真嗎？
-答案：通常不能直接視為無偏系統的物理時間；偏差改變動態，需符合方法假設的校正與驗證。
+關鍵詞：潛在空間、摺疊路徑、詳細平衡。
+回想題：生成一條看似合理的路徑，就能算出自由能嗎？
+答案：不能僅由路徑外觀判斷；需確認取樣分布、權重與估計方法。此方法的原始生成軌跡不滿足詳細平衡，不能直接當平衡樣本。
 
 日期採 America/New_York。口播約 45–50 秒僅為估計，依語速與停頓而異。
