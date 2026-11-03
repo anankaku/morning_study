@@ -1,23 +1,18 @@
-# 2026-11-02 晨間快訊來源
+# 晨間讀書快訊來源
+日期：2026-11-03（America/New_York）
 
-回顧 2026 年已發表研究，非今日新發表。
+## 公開文獻
+- Anupam Anand Ojha, Praveen Ranganath Prabhakar, Ioan Andricioaei, Sonya M. Hanson. **cryoWEight: Conformational ensembles from cryo-EM particle images with weighted ensemble simulations**（2026；bioRxiv 預印本）。
+- DOI：https://doi.org/10.64898/2026.09.28.755042
+- 作者公開程式與研究說明：https://github.com/anandojha/cryoWEight
+- 作者所屬機構的公開方法說明：https://www.simonsfoundation.org/flatiron/computational-biology/structural-and-molecular-biophysics/
 
-Alan Ianeselli, Jewon Im, Eddie Cavallin, Mark B. Gerstein. “DreamFold: A World Model to efficiently generate protein folding pathways in the latent space.” Protein Science 35(11), e70794 (2026). 首次線上發表：2026-09-30。
+## 本次核實的內容
+作者公開 README 的方法說明指出：方法將迭代加權系綜模擬與針對冷凍電鏡粒子影像的系綜重新加權結合。在影像空間重新加權，即使先驗系綜與目標分布在集體變數空間沒有重疊，也能引入朝向目標分布的方向性引導。README 的 Citation 區段核實文獻完整題名、作者、年份與 DOI。機構頁面另確認方法結合系綜重新加權與加權系綜分子動力學，以影像資料引導軌跡與系綜。
 
-[DOI](https://doi.org/10.1002/pro.70794)
-[出版社公開全文](https://onlinelibrary.wiley.com/doi/full/10.1002/pro.70794)
-
-## 查核與界線
-
-- 摘要及方法：以變分自編碼器壓縮構形與二面角動作，再學習潛在狀態轉移，訓練控制器朝目標摺疊。
-- 研究將生成路徑與分子動力學及可用實驗資料比較，報告中間態與隱藏結合位置；這是所測系統的結果，不代表普遍準確或已驗證藥效。
-- 討論明確指出控制器偏向單向摺疊，破壞詳細平衡；生成軌跡屬非平衡，不能直接抽取平衡熱力學量。文中另以短 MD 鬆弛和馬可夫狀態模型處理無偏動態，不等於原始生成路徑本身已具真實物理時間。
-- 未將作者的最高加速倍數或特定規模下的複雜度表述成普遍保證。
-
-## 複習提示
-
-關鍵詞：潛在空間、摺疊路徑、詳細平衡。
-回想題：生成一條看似合理的路徑，就能算出自由能嗎？
-答案：不能僅由路徑外觀判斷；需確認取樣分布、權重與估計方法。此方法的原始生成軌跡不滿足詳細平衡，不能直接當平衡樣本。
-
-日期採 America/New_York。口播約 45–50 秒僅為估計，依語速與停頓而異。
+## 限制與核實範圍
+- 此為 2026 年預印本回顧，不宣稱是今天發表的新研究或已通過同儕審查的定論。
+- 本次 bioRxiv／DOI 正文端點未能讀取；快訊僅採用作者公開 README 與所屬機構頁面可直接核實的方法敘述，不轉述未核實的數值、測試成功率或蛋白質案例。
+- 「沒有重疊」限於指定集體變數空間中的先驗與目標分布，不能推廣成任何未知構形皆能保證找到。
+- 取樣受影像資料引導不等於影像直接提供轉換速率，也不代表已驗證真實動力學。最後一句是方法解讀上的保守提醒，不是該預印本的額外實測結果。
+- 全文為原創短摘要。口播長度為 161 字元（含標點，不計空白及換行）；約 45–50 秒僅為估計，未實測語音。
