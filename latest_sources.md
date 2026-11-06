@@ -1,17 +1,18 @@
 # 晨間讀書快訊來源
-日期：2026-11-05（America/New_York）
+日期：2026-11-06（America/New_York）
 
 ## 公開文獻
-- Yunrui Qiu, Richard John, Lukas Herron, Pratyush Tiwary. **Latent thermodynamic flows: unified representation learning and generative modeling of temperature-dependent behaviors from limited data**（2026），Chemical Science 17, 3743–3757。首次正式出版：2026-01-02。
-- 正式出版 DOI：https://doi.org/10.1039/D5SC06402C
-- 出版社文章頁：https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc06402c
-- 作者預印本（2025-07-03，v1）：https://arxiv.org/abs/2507.03174v1
-- 本次核實的原始研究全文：https://arxiv.org/html/2507.03174v1
+- Wenbing Zhang、Shi-Jie Chen. **Exploring the Complex Folding Kinetics of RNA Hairpins: I. General Folding Kinetics Analysis**（2006），Biophysical Journal 90(3), 765–777。
+- DOI：https://doi.org/10.1529/biophysj.105.062935
+- 出版社文章：https://www.sciencedirect.com/science/article/pii/S0006349506722652
+- 原始研究公開存檔：https://pmc.ncbi.nlm.nih.gov/articles/PMC1367102/
+- 書目與作者摘要：https://pubmed.ncbi.nlm.nih.gov/16272440/
+- 線上先行日期為 2005-11-04，期刊卷期日期為 2006-02-01；口播依卷期標為二〇〇六年回顧。
 
 ## 核實內容與限制
-- 出版社公開搜尋索引核實正式題名、作者、2026 年出版資訊及摘要；直接讀取出版社網頁時回傳 403，因此細節依可讀取的作者預印本核實，不宣稱已逐字對照正式出版全文。
-- 摘要及第 II.4 節、圖 6：LaTF 結合低維表示學習與生成模型；一種 RNA 四核苷酸環髮夾的案例，以 300 K、400 K 模擬資料學習，推估隨溫度變化的構形分布和熔解曲線。
-- 第 II.4 節指出，預測熔解曲線與既有相同力場的模擬相符，但熔解溫度略高於實驗。作者列出的可能原因包括力場、摺疊狀態定義及離子條件，未確定單一原因。
-- 第 III 節指出，目前測試的成功不等於跨溫度表示具有理論保證。這是有限案例的計算研究，不能泛化為任何分子或任意溫度皆適用；兩個溫度也不代表只需少量總模擬時間。
-- 口播是 2026 年已發表研究回顧，不是今日新發表消息；其公開預印本始於 2025 年。「熔解」指隨升溫的結構解摺疊，不是化學分解。
-- 原創口播摘要，168 字元（含標點，不計空白及換行）。約 45–50 秒僅為估計，未實測語音。
+- 已核對公開搜尋所呈現的出版社原文摘要，以及 PMC 原文摘要與 Summary 段落。直接開啟出版社全文回傳 403，PMC 直接頁面顯示瀏覽器驗證，因此不宣稱已完整檢讀全文。
+- 作者以速率常數模型及動力學分群理論研究 RNA 髮夾摺疊。摘要與總結支持：成環、天然鹼基堆疊形成，以及非天然堆疊解除可競爭成為限速步驟；僅以環大小解釋摺疊速度過度簡化。
+- 這是模型研究，結論須連同序列、溫度及模型假設理解；不是所有 RNA 皆遵循同一條路徑或同一速率的保證。
+- 「今天沒有已核實的新文獻」僅指本次沒有取得足以核實的近期文獻更新，不代表領域中沒有新論文。本次以可核實的經典研究回顧替代，未將未核實的近期論文當作研究發現播報。
+- 複習問題採一般簡諧近似的小位移條件；不涉及任何特定分子、實驗或個人進度。
+- 原創口播摘要，共 165 字元（含標點，不計空白與換行）。約 45–50 秒僅為估計，未實測語音。
