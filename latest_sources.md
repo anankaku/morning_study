@@ -1,16 +1,15 @@
 # 晨間讀書快訊來源
-日期：2026-11-09（America/New_York）
+日期：2026-11-10（America/New_York）
 
-## 公開原始研究
-- Mark Fonteyne et al. **Molecular docking versus co-folding for protein–peptide pose prediction: effects of protein flexibility and training set overlap**（2026）。
-- *Digital Discovery* 5(10), 4471–4488。口播明確標為二〇二六年研究回顧，不稱為今日新發表。
-- DOI：https://doi.org/10.1039/d6dd00242k
-- 已核對的原文：https://pmc.ncbi.nlm.nih.gov/articles/PMC13592151/
-- 書目資料：https://pubmed.ncbi.nlm.nih.gov/42769622/
+## 公開原始研究回顧
+- Gregory A. Landrum、Sereina Riniker。**Combining IC50 or Ki Values from Different Sources Is a Source of Significant Noise**（2024）。
+- *Journal of Chemical Information and Modeling* 64(5), 1560–1567；2024-02-23 線上發表，2024-03-11 卷期出版。
+- DOI：https://doi.org/10.1021/acs.jcim.4c00049
+- 已核對的作者摘要與書目：https://pubmed.ncbi.nlm.nih.gov/38394344/
 
 ## 核實內容與限制
-- 已檢讀摘要、方法、結果及討論。研究比較三種共同折疊模型與兩種胜肽對接方法，並依訓練資料相似程度檢驗結合姿態預測。
-- 結果與圖五支持：共同折疊模型在低重疊案例上的姿態預測成功率下降。「低重疊」是口播簡稱，原文依受體結構、胜肽序列與界面相似性分層，不表示所有獨立測試案例都完全無相似資訊。
-- 討論指出，獨立測試集沒有對應的實驗未結合態受體結構，因此資料重疊與受體構形差異的影響尚不能完全分離。不能由此宣布對接或共同折疊普遍勝出。
-- 結論限於所測模型、資料與姿態準確度，不是結合親和力、催化活性或臨床療效的驗證。檢查資料重疊並以獨立資料評估，是本稿的教育性歸納。
-- 原創繁體中文口播共 156 字元（含標點，不計空白與換行），其中 140 個漢字。約 45–50 秒僅為估計，未實測語音。
+- 摘要比較同一化合物、同一標的的跨實驗數據。IC50 最低限度篩選下，27% 的配對值相差超過一個對數單位；要求較完整的實驗資訊吻合後，比例降至 13%，但可用資料量減少。
+- 口播的「半數抑制濃度」指 IC50。這是資料一致性的比較，不代表篩選能消除所有誤差，也不直接證明模型準確率提高。
+- 本稿核實範圍是公開原始研究摘要與書目，未完整檢讀全文；不把 IC50 結果概括成所有 Ki 數據皆可由同一篩選方式改善。
+- 本次未核實新的文獻進展，因此口播明示並提供 2024 年回顧；不表示今天沒有新研究發表。
+- 原創繁體中文口播共 163 字元（含標點，不計空白與換行），其中 145 個漢字。約 45–50 秒為估計，未實測語音。
