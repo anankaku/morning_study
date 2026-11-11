@@ -1,15 +1,15 @@
 # 晨間讀書快訊來源
-日期：2026-11-10（America/New_York）
+日期：2026-11-11（America/New_York）
 
-## 公開原始研究回顧
-- Gregory A. Landrum、Sereina Riniker。**Combining IC50 or Ki Values from Different Sources Is a Source of Significant Noise**（2024）。
-- *Journal of Chemical Information and Modeling* 64(5), 1560–1567；2024-02-23 線上發表，2024-03-11 卷期出版。
-- DOI：https://doi.org/10.1021/acs.jcim.4c00049
-- 已核對的作者摘要與書目：https://pubmed.ncbi.nlm.nih.gov/38394344/
+## 文獻回顧
+- Yunrui Qiu、Richard John、Lukas Herron、Pratyush Tiwary。**Latent thermodynamic flows: unified representation learning and generative modeling of temperature-dependent behaviors from limited data**（2026）。Chemical Science 17, 3743–3757；首次發表：2026-01-02。
+- DOI：https://doi.org/10.1039/D5SC06402C
+- 出版社原始研究：https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc06402c
+- 作者摘要與書目：https://pubmed.ncbi.nlm.nih.gov/41487138/
 
-## 核實內容與限制
-- 摘要比較同一化合物、同一標的的跨實驗數據。IC50 最低限度篩選下，27% 的配對值相差超過一個對數單位；要求較完整的實驗資訊吻合後，比例降至 13%，但可用資料量減少。
-- 口播的「半數抑制濃度」指 IC50。這是資料一致性的比較，不代表篩選能消除所有誤差，也不直接證明模型準確率提高。
-- 本稿核實範圍是公開原始研究摘要與書目，未完整檢讀全文；不把 IC50 結果概括成所有 Ki 數據皆可由同一篩選方式改善。
-- 本次未核實新的文獻進展，因此口播明示並提供 2024 年回顧；不表示今天沒有新研究發表。
-- 原創繁體中文口播共 163 字元（含標點，不計空白與換行），其中 145 個漢字。約 45–50 秒為估計，未實測語音。
+## 核實範圍與限制
+- 核對公開搜尋索引所收錄的出版社原始摘要及 PubMed 作者摘要與書目；直接頁面抓取未取得完整正文，未聲稱全文驗證。
+- 摘要支持：方法聯合學習低維表示與平衡分布；RNA tetraloop 案例以兩個溫度的模擬資料重建溫度相依的結構集合與熔解行為。這是特定案例，不能推廣為任意分子或任意溫度皆有效。
+- 平衡分布描述狀態機率，不直接提供動力學路徑或轉換速率；口播末句為一般方法學提醒，不是宣稱本文已驗證任何特定真實路徑。
+- 這是 2026 年已發表研究的回顧，不是今天新發表的消息。
+- 口播 163 字元（含標點、不計空白）；約 45–50 秒僅為估計，未實測語音。
