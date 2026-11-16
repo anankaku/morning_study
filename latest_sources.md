@@ -1,11 +1,10 @@
 # 晨間讀書快訊來源
-日期：2026-11-15（America/New_York）
+日期：2026-11-16（America/New_York）
 
-- A. C. Ferrari 等。**Raman Spectrum of Graphene and Graphene Layers**（2006）。Physical Review Letters 97, 187401。
-- [期刊 DOI](https://doi.org/10.1103/PhysRevLett.97.187401)
-- [已核對的論文全文（劍橋大學工程系副本）](https://www-g.eng.cam.ac.uk/nms/highlights-press/ferrariPRL.pdf)，見圖 2 與內文。
+- Philip M. Morse。**Diatomic Molecules According to the Wave Mechanics. II. Vibrational Levels**（1929）。Physical Review 34, 57–64。
+- [期刊原始論文與摘要](https://journals.aps.org/pr/abstract/10.1103/PhysRev.34.57)
+- [論文全文副本（雅典大學化學系）](https://jupiter.chem.uoa.gr/thanost/papers/papers4/PR_34%281929%2957.pdf)
 
 ## 核實範圍與限制
-- 在作者的量測中，單層石墨烯的 2D 拉曼譜帶是單一尖峰；雙層樣品的同一譜帶較寬，可擬合成四個成分。2D 是譜帶名稱，不是指二維拉曼光譜。
-- 雙層樣品是 AB 堆疊；作者也指出亂層石墨可能有單一 2D 峰，因此單峰不能作為判定所有碳材料層數的通則。
-- 口播 163 字元（含標點、不計空白）。45–50 秒是估計值，未實測。
+- 作者從假定的雙原子分子位能函數解出振動能階，並以包含負二次項的能階式描述實驗值。對正的非簡諧係數，相鄰束縛能階間距隨振動量子數上升而縮小。等距是理想簡諧模型的預測。
+- 這是針對雙原子分子的模型，不是多原子分子、所有光譜線或解離以上連續態的通則。口播 169 字元（含標點、不計空白），約 45–50 秒，未實測。
