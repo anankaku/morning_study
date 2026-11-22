@@ -1,11 +1,11 @@
 # 晨間讀書快訊來源
-日期：2026-11-21（America/New_York）
+日期：2026-11-22（America/New_York）
 
-- Wang, D.; Qiu, Y.; Beyerle, E. R.; Huang, X.; Tiwary, P. **Information Bottleneck Approach for Markov Model Construction**（2024）。Journal of Chemical Theory and Computation 20 (12), 5352–5367。
-- [期刊原始論文 DOI](https://doi.org/10.1021/acs.jctc.4c00449)
-- [公開作者版本全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC11213129/)
+- Koistinen, O.-P.; Dagbjartsdóttir, F. B.; Ásgeirsson, V.; Vehtari, A.; Jónsson, H. **Nudged elastic band calculations accelerated with Gaussian process regression**（2017）。The Journal of Chemical Physics 147, 152720。
+- [期刊論文 DOI](https://doi.org/10.1063/1.4986787)
+- [公開期刊重印本](https://acris.aalto.fi/ws/portalfiles/portal/26688491/1.4986787.pdf)
 
 ## 核實範圍與限制
-- 方法與結論：研究分析三種小蛋白的摺疊與解摺疊分子動力學模擬，利用狀態預測資訊瓶頸同時學習低維表示與分群；訓練目標包含指定延遲時間後的狀態預測。
-- 圖 6 與結果段落：其中一種模型系統在較細的十狀態模型中，將較粗的五狀態模型裡的一個未摺疊狀態分成數個子狀態。這是模擬軌跡的模型分析，不是直接量得新的物理狀態，也不保證其他系統有同樣的分群。
-- 2024 年研究回顧；口播 170 字元（含標點，不計空白），45–50 秒僅為估計，未實測。
+- 方法：利用高斯過程近似能量面；單構形法依模型估計的不確定性等準則，選擇下一個要以參考勢能重新評估能量和力的路徑構形。
+- 第五、六節及圖 9：在固體表面七原子島的十三種重排測試中，單構形法所需的能量與力評估次數約為全構形法的一半（以不加端點 Hessian 的版本作比較）。
+- 這是採用簡化 Morse 勢能的計算基準，不是實驗、實際運算時間加速比或速率量測，不能直接推廣到其他系統。口播 168 字元（含標點，不計空白），45–50 秒僅為估計。
