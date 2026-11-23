@@ -1,11 +1,12 @@
 # 晨間讀書快訊來源
-日期：2026-11-22（America/New_York）
+日期：2026-11-23（America/New_York）
 
-- Koistinen, O.-P.; Dagbjartsdóttir, F. B.; Ásgeirsson, V.; Vehtari, A.; Jónsson, H. **Nudged elastic band calculations accelerated with Gaussian process regression**（2017）。The Journal of Chemical Physics 147, 152720。
-- [期刊論文 DOI](https://doi.org/10.1063/1.4986787)
-- [公開期刊重印本](https://acris.aalto.fi/ws/portalfiles/portal/26688491/1.4986787.pdf)
+- Qiu, Y.; John, R.; Herron, L.; Tiwary, P. **Latent thermodynamic flows: unified representation learning and generative modeling of temperature-dependent behaviors from limited data**（2026）。Chemical Science 17, 3743–3757。2026 年 1 月 2 日首次發表。
+- [期刊原始論文](https://doi.org/10.1039/D5SC06402C)
+- [期刊公開全文](https://pubs.rsc.org/en/content/articlehtml/2026/sc/d5sc06402c)
 
 ## 核實範圍與限制
-- 方法：利用高斯過程近似能量面；單構形法依模型估計的不確定性等準則，選擇下一個要以參考勢能重新評估能量和力的路徑構形。
-- 第五、六節及圖 9：在固體表面七原子島的十三種重排測試中，單構形法所需的能量與力評估次數約為全構形法的一半（以不加端點 Hessian 的版本作比較）。
-- 這是採用簡化 Morse 勢能的計算基準，不是實驗、實際運算時間加速比或速率量測，不能直接推廣到其他系統。口播 168 字元（含標點，不計空白），45–50 秒僅為估計。
+- 研究將狀態預測資訊瓶頸與正規化流結合，以低維表示估計未見溫度下的平衡分布。
+- 圖 5(d) 與七粒子團簇結果：模型捕捉到自由能谷隨溫度改變的趨勢；相對於分子動力學參考結果，模型中的六角亞穩態占比隨升溫下降較為緩慢。
+- 這是受限於二維空間的 Lennard-Jones 模擬基準，不是實驗或速率量測。結論不等於對其他系統或任意溫度皆能準確預測。
+- 口播 168 字元（含標點，不計空白）；45–50 秒為估計。
