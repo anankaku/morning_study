@@ -1,11 +1,11 @@
 # 晨間讀書快訊來源
-日期：2026-11-24（America/New_York）
+日期：2026-11-25（America/New_York）
 
-- Yuksekgonul, M.; Bianchi, F.; Boen, J.; et al. **Optimizing generative AI by backpropagating language model feedback**（2025）。Nature 639, 609–616。
-- [期刊原始論文與延伸資料圖 4](https://doi.org/10.1038/s41586-025-08661-4)
-- [作者公開預印本](https://arxiv.org/abs/2406.07496)
+- Roediger, H. L., III; Karpicke, J. D. **Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention**（2006）。Psychological Science 17(3), 249–255。
+- [期刊原始論文](https://doi.org/10.1111/j.1467-9280.2006.01693.x)
+- [作者研究室公開全文](https://psychnet.wustl.edu/memory/wp-content/uploads/2018/04/Roediger-Karpicke-2006_PsychSci.pdf)
 
 ## 核實範圍與限制
-- 期刊延伸資料圖 4 比較 GPT-4o 的零樣本問答表現。TextGrad 在推論時用文字回饋修訂解答，不是用這些題目更新模型權重。
-- 口播只述及 GPQA 科學問答基準：在作者的設定下，修訂流程比思維鏈基準答對更多題。預印本報告正確率從 51% 升至 55%，仍有大量答錯，不能推廣成對所有題目或模型的保證。
-- 口播 168 字元（含標點，不計空白）；45–50 秒為估計。
+- 實驗一圖 1：大學生學習短文後重讀，或不看原文做一次無回饋的自由回想。五分鐘後重讀組平均回憶出 81% 的要點，回想組為 75%；一週後則分別為 42% 與 56%。兩個時間點由不同參與者群組接受測驗。
+- 結果衡量的是短文要點的保留，不是理解深度、解題遷移或課程成績。口播中的口頭回想是延伸練習，原實驗要求書寫。
+- 口播 170 字元（含標點，不計空白）；45–50 秒為估計。
