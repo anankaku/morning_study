@@ -1,11 +1,10 @@
 # 晨間讀書快訊來源
-日期：2026-11-25（America/New_York）
+日期：2026-11-26（America/New_York）
 
-- Roediger, H. L., III; Karpicke, J. D. **Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention**（2006）。Psychological Science 17(3), 249–255。
-- [期刊原始論文](https://doi.org/10.1111/j.1467-9280.2006.01693.x)
-- [作者研究室公開全文](https://psychnet.wustl.edu/memory/wp-content/uploads/2018/04/Roediger-Karpicke-2006_PsychSci.pdf)
+- Batzner, S.; Musaelian, A.; Sun, L.; et al. **E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials**（2022）。Nature Communications 13, 2453。
+- [期刊原始論文，圖 5](https://doi.org/10.1038/s41467-022-29939-5)
+- [公開期刊全文 PDF](https://escholarship.org/content/qt350567s7/qt350567s7_noSplash_4c9c9c4671bdc7073dfa8529083e5d3f.pdf)
 
 ## 核實範圍與限制
-- 實驗一圖 1：大學生學習短文後重讀，或不看原文做一次無回饋的自由回想。五分鐘後重讀組平均回憶出 81% 的要點，回想組為 75%；一週後則分別為 42% 與 56%。兩個時間點由不同參與者群組接受測驗。
-- 結果衡量的是短文要點的保留，不是理解深度、解題遷移或課程成績。口播中的口頭回想是延伸練習，原實驗要求書寫。
-- 口播 170 字元（含標點，不計空白）；45–50 秒為估計。
+- 圖 5 比較液態水資料上的 NequIP 模型。對作者測試的訓練集大小，採用高階等變特徵的版本，力分量的平均絕對誤差低於只使用旋轉不變純量特徵的版本。
+- 衡量的是與參考量子計算的吻合程度，不是直接與實驗比較。此結果不能保證換到其他材料也有同樣的資料效率，也不等於訓練更省時間。
