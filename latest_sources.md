@@ -1,10 +1,9 @@
 # 晨間讀書快訊來源
-日期：2026-11-26（America/New_York）
+日期：2026-11-27（America/New_York）
 
-- Batzner, S.; Musaelian, A.; Sun, L.; et al. **E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials**（2022）。Nature Communications 13, 2453。
-- [期刊原始論文，圖 5](https://doi.org/10.1038/s41467-022-29939-5)
-- [公開期刊全文 PDF](https://escholarship.org/content/qt350567s7/qt350567s7_noSplash_4c9c9c4671bdc7073dfa8529083e5d3f.pdf)
+- Nüske, F.; Keller, B. G.; Pérez-Hernández, G.; Mey, A. S. J. S.; Noé, F. **Variational Approach to Molecular Kinetics**（2014）。Journal of Chemical Theory and Computation 10(4), 1739–1752。
+- [期刊原始論文](https://doi.org/10.1021/ct4009156) · [公開全文](https://publications.imp.fu-berlin.de/1388/1/14_JCTC_NueskeEtAl_Variational.pdf)
 
 ## 核實範圍與限制
-- 圖 5 比較液態水資料上的 NequIP 模型。對作者測試的訓練集大小，採用高階等變特徵的版本，力分量的平均絕對誤差低於只使用旋轉不變純量特徵的版本。
-- 衡量的是與參考量子計算的吻合程度，不是直接與實驗比較。此結果不能保證換到其他材料也有同樣的資料效率，也不等於訓練更省時間。
+- 第 3.1 與 4.1 節、圖 2 與圖 3B：一維週期雙井模型以布朗動力學模擬。延遲相關矩陣用來估計慢模態；最慢的非平凡模態對應兩個井之間的跨越。圖 3 比較高斯基底與離散分區模型，前者在作者的測試中以較少的基底或較短的延遲時間就能逼近參考時間尺度。
+- 「更快逼近」指估計值隨延遲時間的收斂，不是程式執行更快。這是一維模型的比較，不是實驗測量，也不能保證其他系統使用同樣的基底會得到相同優勢。
