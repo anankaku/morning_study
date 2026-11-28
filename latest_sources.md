@@ -1,9 +1,9 @@
 # 晨間讀書快訊來源
-日期：2026-11-27（America/New_York）
+日期：2026-11-28（America/New_York）
 
-- Nüske, F.; Keller, B. G.; Pérez-Hernández, G.; Mey, A. S. J. S.; Noé, F. **Variational Approach to Molecular Kinetics**（2014）。Journal of Chemical Theory and Computation 10(4), 1739–1752。
-- [期刊原始論文](https://doi.org/10.1021/ct4009156) · [公開全文](https://publications.imp.fu-berlin.de/1388/1/14_JCTC_NueskeEtAl_Variational.pdf)
+- Jia, R.; Bradshaw, R. T.; et al. **Integrating Hydrogen Deuterium Exchange–Mass Spectrometry with Molecular Simulations Enables Quantification of the Conformational Populations of the Sugar Transporter XylE**（2023）。Journal of the American Chemical Society 145(14), 7768–7779。
+- [期刊原始研究全文](https://doi.org/10.1021/jacs.2c06148)
 
 ## 核實範圍與限制
-- 第 3.1 與 4.1 節、圖 2 與圖 3B：一維週期雙井模型以布朗動力學模擬。延遲相關矩陣用來估計慢模態；最慢的非平凡模態對應兩個井之間的跨越。圖 3 比較高斯基底與離散分區模型，前者在作者的測試中以較少的基底或較短的延遲時間就能逼近參考時間尺度。
-- 「更快逼近」指估計值隨延遲時間的收斂，不是程式執行更快。這是一維模型的比較，不是實驗測量，也不能保證其他系統使用同樣的基底會得到相同優勢。
+- 圖 1 與圖 2B–C：研究以肽段的氘攝取量約束分子模擬構形的權重，從調整後的模型估計向內與向外開放的構形比例。兩種受測的脂質奈米盤條件下，調整後的比例相近。
+- 比例不是質譜直接讀出的數值，會受模擬取樣、交換預測模型及肽段覆蓋範圍限制。結果不排除脂質有較細微的影響，也不推廣到其他膜蛋白或脂質條件。
